@@ -26,3 +26,5 @@ console.log(result);
 }
 
 countLetters("lighthouse in the house");
+
+
