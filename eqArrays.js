@@ -1,4 +1,4 @@
-const eqArrays = function (a, b){
+const eqArrays = function (a, b) {
   if(a.length !== b.length){
     return false;
   }
@@ -9,8 +9,4 @@ const eqArrays = function (a, b){
   }
 return true;
 }
-console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
-console.log(eqArrays([1, 2, 3], [3, 2, 1])) // => false
-
-console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])) // => true
-console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]));
+module.exports = eqArrays;
